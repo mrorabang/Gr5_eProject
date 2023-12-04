@@ -52,7 +52,7 @@ function CountriesDetail() {
                         <p className="festival">1.{countries.festival1}</p>
                         <p>
                             <MDBBtn outline color="success" rounded>
-                                <a style={{ color: 'green' }} href={"/" + countries.festival1 + ".docx"} download={countries.festival1} target="_blank">
+                                <a style={{ color: 'green' }} href={"./" + countries.festival1 + ".docx"} download={countries.festival1} target="_blank">
                                     <MDBIcon fas icon="cloud-download-alt" />
                                     Download file docx
                                 </a>
@@ -72,7 +72,7 @@ function CountriesDetail() {
                         <p className="festival">2.{countries.festival2}</p>
                         <p>
                             <MDBBtn outline color="success" rounded>
-                                <a style={{ color: 'green' }} href={"/" + countries.festival2 + ".docx"} download={countries.festival2} target="_blank">
+                                <a style={{ color: 'green' }} href={"./" + countries.festival2 + ".docx"} download={countries.festival2} target="_blank">
                                     <MDBIcon fas icon="cloud-download-alt" />
                                     Download file docx
                                 </a>
@@ -97,7 +97,7 @@ function CountriesDetail() {
                         <p className="festival">1.{countries.festival3}</p>
                         <p>
                             <MDBBtn outline color="success" rounded>
-                                <a style={{ color: 'green' }} href={"/" + countries.festival3 + ".docx"} download={countries.festival3} target="_blank">
+                                <a style={{ color: 'green' }} href={"./" + countries.festival3 + ".docx"} download={countries.festival3} target="_blank">
                                     <MDBIcon fas icon="cloud-download-alt" />
                                     Download file docx
                                 </a>
@@ -115,7 +115,7 @@ function CountriesDetail() {
                         <p className="festival">2.{countries.festival4}</p>
                         <p>
                             <MDBBtn outline color="success" rounded>
-                                <a style={{ color: 'green' }} href={"/" + countries.festival4 + ".docx"} download={countries.festival4} target="_blank">
+                                <a style={{ color: 'green' }} href={"./" + countries.festival4 + ".docx"} download={countries.festival4} target="_blank">
                                     <MDBIcon fas icon="cloud-download-alt" />
                                     Download file docx
                                 </a>
@@ -137,7 +137,7 @@ function CountriesDetail() {
                         <p className="festival">1.{countries.festival5}</p>
                         <p>
                             <MDBBtn outline color="success" rounded>
-                                <a style={{ color: 'green' }} href={"/" + countries.festival5 + ".docx"} download={countries.festival5} target="_blank">
+                                <a style={{ color: 'green' }} href={"./" + countries.festival5 + ".docx"} download={countries.festival5} target="_blank">
                                     <MDBIcon fas icon="cloud-download-alt" />
                                     Download file docx
                                 </a>
@@ -155,7 +155,7 @@ function CountriesDetail() {
                         <p className="festival">2.{countries.festival6}</p>
                         <p>
                             <MDBBtn outline color="success" rounded>
-                                <a style={{ color: 'green' }} href={"/" + countries.festival6 + ".docx"} download={countries.festival6} target="_blank">
+                                <a style={{ color: 'green' }} href={"./" + countries.festival6 + ".docx"} download={countries.festival6} target="_blank">
                                     <MDBIcon fas icon="cloud-download-alt" />
                                     Download file docx
                                 </a>

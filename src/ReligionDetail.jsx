@@ -44,7 +44,7 @@ function ReligionDetail() {
                     <p>{religion.namefes1}</p>
                     <p>
                         <MDBBtn outline color="success" rounded >
-                            <a style={{ color: 'green' }} href={"/" + religion.namefes1 + ".docx"} download={religion.namefes1} target="_blank">
+                            <a style={{ color: 'green' }} href={"./" + religion.namefes1 + ".docx"} download={religion.namefes1} target="_blank">
                                 <MDBIcon fas icon="cloud-download-alt" />
                                 Download file docx
                             </a>
@@ -55,14 +55,12 @@ function ReligionDetail() {
                 <img src={"."+religion.pic2} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content2}</p>
                 <br />
-                {/* <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content1}</p> */}
                 <img src={"."+religion.pic2a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
-                {/* <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content2}</p> */}
                 <div className="rd-namefest">
                     <p>{religion.namefes2}</p>
                     <p>
                         <MDBBtn outline color="success" rounded>
-                            <a style={{ color: 'green' }} href={"/" + religion.namefes2 + ".docx"} download={religion.namefes2} target="_blank">
+                            <a style={{ color: 'green' }} href={"./" + religion.namefes2 + ".docx"} download={religion.namefes2} target="_blank">
                                 <MDBIcon fas icon="cloud-download-alt" />
                                 Download file docx
                             </a>
@@ -77,7 +75,7 @@ function ReligionDetail() {
                     <p>{religion.namefes3}</p>
                     <p>
                         <MDBBtn outline color="success" rounded>
-                            <a style={{ color: 'green' }} href={"/" + religion.namefes3 + ".docx"} download={religion.namefes3} target="_blank">
+                            <a style={{ color: 'green' }} href={"./" + religion.namefes3 + ".docx"} download={religion.namefes3} target="_blank">
                                 <MDBIcon fas icon="cloud-download-alt" />
                                 Download file docx
                             </a>
