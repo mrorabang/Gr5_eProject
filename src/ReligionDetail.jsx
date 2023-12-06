@@ -35,7 +35,7 @@ function ReligionDetail() {
                 <span className='religion-title'>{religion.name}</span>
                 <p className='line'></p>
             </div>
-            <img className="religion-pic-1" src={"."+religion.pic1} alt="" />
+            <img className="religion-pic-1" src={"." + religion.pic1} alt="" />
             <p className="religion-text-1">
                 {religion.intro}
             </p>
@@ -52,10 +52,10 @@ function ReligionDetail() {
                     </p>
                 </div>
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content1}</p>
-                <img src={"."+religion.pic2} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
+                <img src={"." + religion.pic2} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content2}</p>
                 <br />
-                <img src={"."+religion.pic2a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
+                <img src={"." + religion.pic2a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <div className="rd-namefest">
                     <p>{religion.namefes2}</p>
                     <p>
@@ -68,9 +68,9 @@ function ReligionDetail() {
                     </p>
                 </div>
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content3}</p>
-                <img src={"."+religion.pic3} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
-                <br />
-                <img src={"."+religion.pic3a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
+                <img src={"." + religion.pic3} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
+                <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content3}</p>
+                <img src={"." + religion.pic3a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <div className="rd-namefest">
                     <p>{religion.namefes3}</p>
                     <p>
@@ -83,12 +83,11 @@ function ReligionDetail() {
                     </p>
                 </div>
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content4}</p>
-                <img src={"."+religion.pic4} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
+                <img src={"." + religion.pic4} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <br />
-                <img src={"."+religion.pic4a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content4a}</p>
-                <br />
-                <br />
+                <img src={"." + religion.pic4a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
+                <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content4b}</p>
             </div >
             <br />
             <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
@@ -137,7 +136,7 @@ function ReligionDetail() {
                     </MDBContainer>
                 </section>
 
-                <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+                <div className='text-center p-2' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
                     © 2023 Copyright by GROUP 5
                 </div>
             </MDBFooter>
