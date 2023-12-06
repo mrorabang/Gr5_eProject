@@ -68,8 +68,8 @@ function ReligionDetail() {
                     </p>
                 </div>
                 <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content3}</p>
-                <img src={"." + religion.pic3} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
-                <p style={{ width: '80%', margin: '20px auto 20px auto', textAlign: 'justify' }}>{religion.content3}</p>
+                <img src={"." + religion.pic3} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" /> <br />
+                
                 <img src={"." + religion.pic3a} width={'60%'} style={{ display: 'block', margin: 'auto' }} alt="" />
                 <div className="rd-namefest">
                     <p>{religion.namefes3}</p>
